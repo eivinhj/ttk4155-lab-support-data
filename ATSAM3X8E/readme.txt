@@ -7,8 +7,7 @@
 **************************************************************************************/
 
 This folder includes files for use on the Arduino DUE:
-"Device_Startup" include the files neccecarry to 
-"simple_delay" includes a simple delay function for waiting (aproximately) a number of milli- or microseconds by inserting __nop__ operations. 
+"Sam" include the files neccecarry to  
 "uart_and_printf" includes a simple interface for using printf via UART on the Arduino DUE. 
 
 NOTE: A known bug in the printf library is that the compiler crashes if you put "\n", "\r" etc. in the string. 
