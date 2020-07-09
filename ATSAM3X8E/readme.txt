@@ -6,7 +6,7 @@
  *
 **************************************************************************************/
 
-This folder includes files for use on the Arduino DUE:
+This folder includes files for use with the Arduino DUE:
 "Sam" include the files neccecarry to  
 "uart_and_printf" includes a simple interface for using printf via UART on the Arduino DUE. 
 

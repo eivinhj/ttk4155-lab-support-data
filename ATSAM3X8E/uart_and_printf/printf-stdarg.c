@@ -22,12 +22,14 @@ Edited 2020 by Eivind H. Jølsgard and Gustav O. Often for use in course TTK4155
 
 #include <stdarg.h>
 #include "uart.h"
+#include "../usart_ble.h"
 
 
 //insert function to print to here
 static void printchar(char **str, int c)
 {
 	(void) uart_putchar(c);  //Send characters to uart
+	(void) usart_ble_putchar(c);
 }
 
 #define PAD_RIGHT 1
